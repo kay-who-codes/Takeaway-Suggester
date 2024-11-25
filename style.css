@@ -133,3 +133,16 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Media Query for High Pixel Density Screens */
+@media (min-resolution: 2dppx) {
+    /* Styles for devices with high resolution */
+    .some-class {
+        /* Example style for high-resolution devices */
+    }
+}
+
+/* Ensure footer and header stay fixed */
+body {
+    padding-bottom: 40px;
+}
